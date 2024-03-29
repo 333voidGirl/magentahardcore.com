@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Unifraktur-Maguntia-Book";
+    src: url("/imgsAssets/fonts/UnifrakturMaguntia-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "IBM";
+    src: url("/imgsAssets/fonts/ibm.woff") format('woff');
+}
+
+@font-face {
+  font-family: "Bamum";
+  src: url("/imgsAssets/fonts/bamum.woff") format('woff');
+}
+
+h1 {
+  font-family: 'Unifraktur-Maguntia-Book', cursive;
+  color: #f20587;
+  font-size: 400%;
+  margin: 1%;
+}
+
+h2 {
+  font-family: 'Unifraktur-Maguntia-Book', cursive;
+  color: #d15cff;
+  font-size: 333%;
+  margin: 1%;
+}
+
+p, ul {
+  font-size: 110%;
+  font-family: 'IBM', sans-serif;
+  color: #b90065;
+  margin: 1%;
+}
+
+p2 {
+  font-size: 90%;
+  font-family: 'IBM', sans-serif;
+  color: #b90065;
+  margin: 1%;
+}
+
+a {
+  color: #d15cff;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  padding: 1px;
+  border: 1px solid #d15cff;
+}
+
+body {
+  text-align: left;
+  background-color: black;
+  background-image: url("/imgsAssets/background.gif");
+  background-position: right top;
+  background-repeat: repeat-y;
+  background-size: 20%;
+  margin: 1%;
+  max-width: 80%;
+}
+
+pre {
+  font-family: 'IBM', sans-serif;
+  color: #f20587;
+  white-space: pre;
+  font-size: 100%;
+  margin: 1%;
+}
+
+hr {
+  color: #f20587;
+  border: 1px solid;
+  border-color: #f20587;
+  margin: 1%;
+}
+
+::selection {
+  background: #d15cff; /* WebKit/Blink Browsers */
+  color: black;
+}
+::-moz-selection {
+  background: #d15cff; /* Gecko Browsers */
+  color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.text {
+  align-self: flex-end;
+}
+
+.logo {
+  width: 88px;
+  height: 88px;
+}
+
+.paragraph {
+  display: flex;
+}
+
+aside {
+  background-color: #2C111F;
+  border: 1px solid;
+  padding: 5px;
+  border-color: #f20587;
+}
+
+aside::before {
+  font-family: 'IBM', sans-serif;
+  color: #f20587;
+  white-space: pre;
+  font-size: 26px;
+  font-weight: bold;
+  content: "Beware, all ye who enter here!\A";
+}
+
+notfound {
+  
+}
+
+.tab { text-indent:40px }
+
+* {
+  cursor: url(/imgsAssets/cursor1.png), auto !important;
+  }
