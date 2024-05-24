@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Unifraktur-Maguntia-Book";
-    src: url("/imgsAssets/fonts/UnifrakturMaguntia-Regular.woff") format('woff');
+    font-family: "Blackletter";
+    src: url("/imgsAssets/fonts/TexturaLiberaX-Black.woff") format('woff');
 }
 
 @font-face {
@@ -14,42 +14,38 @@
 }
 
 h1 {
-  font-family: 'Unifraktur-Maguntia-Book', cursive;
+  font-family: 'Blackletter', cursive;
   color: #f20587;
-  font-size: 400%;
+  font-size: 63px;
   margin: 1%;
 }
 
-h2 {
-  font-family: 'Unifraktur-Maguntia-Book', cursive;
-  color: #d15cff;
-  font-size: 333%;
+h2{
+  font-size: 16px;
+  font-family: 'IBM', sans-serif;
+  color: #9000ff;
   margin: 1%;
 }
 
 p, ul {
-  font-size: 110%;
+  font-size: 16px;
   font-family: 'IBM', sans-serif;
-  color: #b90065;
-  margin: 1%;
-}
-
-p2 {
-  font-size: 90%;
-  font-family: 'IBM', sans-serif;
-  color: #b90065;
+  color: #f20587;
   margin: 1%;
 }
 
 a {
-  color: #d15cff;
+  color: #f77e00;
   text-decoration: none;
 }
 
 a:hover {
-  font-weight: bold;
   padding: 1px;
-  border: 1px solid #d15cff;
+  border: 1px solid #f77e00;
+}
+
+img {
+  
 }
 
 body {
@@ -59,39 +55,39 @@ body {
   background-position: right top;
   background-repeat: repeat-y;
   background-size: 20%;
-  margin: 1%;
-  max-width: 80%;
+  max-width: 77%;
+  font-family: 'IBM';
+  font-size: 16px;
+}
+
+@media (max-width: 700px) {
+    body {
+      background-image: none;
+    }
 }
 
 pre {
   font-family: 'IBM', sans-serif;
   color: #f20587;
   white-space: pre;
-  font-size: 100%;
+  font-size: 16px;
   margin: 1%;
 }
 
 hr {
-  color: #f20587;
+  color: #9000ff;
   border: 1px solid;
-  border-color: #f20587;
+  border-color: #9000ff;
   margin: 1%;
 }
 
 ::selection {
-  background: #d15cff; /* WebKit/Blink Browsers */
+  background: #f20587; /* WebKit/Blink Browsers */
   color: black;
 }
 ::-moz-selection {
-  background: #d15cff; /* Gecko Browsers */
+  background: #f20587; /* Gecko Browsers */
   color: black;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 .text {
@@ -99,35 +95,19 @@ hr {
 }
 
 .logo {
-  width: 88px;
-  height: 88px;
+  width: 86px;
+  height: 86px;
 }
 
 .paragraph {
   display: flex;
 }
 
-aside {
-  background-color: #2C111F;
-  border: 1px solid;
-  padding: 5px;
-  border-color: #f20587;
-}
-
-aside::before {
-  font-family: 'IBM', sans-serif;
-  color: #f20587;
-  white-space: pre;
-  font-size: 26px;
-  font-weight: bold;
-  content: "Beware, all ye who enter here!\A";
-}
-
-notfound {
-  
-}
-
 .tab { text-indent:40px }
+
+.footer > a:hover {
+  display: inline-block;
+}
 
 * {
   cursor: url(/imgsAssets/cursor1.png), auto !important;
