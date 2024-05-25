@@ -114,6 +114,11 @@ hr {
   margin-left: auto;
 }
 
+.emoji {
+  width: 18px;
+  height: 18px;
+}
+
 * {
      cursor: url("/imgsAssets/cursor1.png"),  auto;
 }
