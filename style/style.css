@@ -107,6 +107,13 @@ hr {
   display: inline-block;
 }
 
+.DDR1 {
+  width: 120px;
+  height: 120;
+  display: block;
+  margin-left: auto;
+}
+
 * {
      cursor: url("/imgsAssets/cursor1.png"),  auto;
 }
