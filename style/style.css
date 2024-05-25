@@ -44,10 +44,6 @@ a:hover {
   border: 1px solid #f77e00;
 }
 
-img {
-  
-}
-
 body {
   text-align: left;
   background-color: black;
@@ -58,6 +54,8 @@ body {
   max-width: 77%;
   font-family: 'IBM';
   font-size: 16px;
+  color: #f20587;
+  cursor: url("/imgsAssets/cursor1.png"), auto;
 }
 
 @media (max-width: 700px) {
@@ -110,5 +108,5 @@ hr {
 }
 
 * {
-  cursor: url(/imgsAssets/cursor1.png), auto !important;
-  }
+     cursor: url("/imgsAssets/cursor1.png"),  auto;
+}
