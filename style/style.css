@@ -64,6 +64,11 @@ body {
     }
 }
 
+.res {
+    width: 63%;
+    height: auto;
+}
+
 pre {
   font-family: 'IBM', sans-serif;
   color: #f20587;
