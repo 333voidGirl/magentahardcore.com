@@ -21,14 +21,14 @@ h1 {
 }
 
 h2{
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'IBM', sans-serif;
   color: #9000ff;
   margin: 1%;
 }
 
 p, ul {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'IBM', sans-serif;
   color: #f20587;
   margin: 1%;
@@ -53,7 +53,7 @@ body {
   background-size: 20%;
   max-width: 77%;
   font-family: 'IBM';
-  font-size: 18px;
+  font-size: 16px;
   color: #f20587;
   cursor: url("/imgsAssets/cursor1.png"), auto;
 }
@@ -73,7 +73,7 @@ pre {
   font-family: 'IBM', sans-serif;
   color: #f20587;
   white-space: pre;
-  font-size: 18px;
+  font-size: 16px;
   margin: 1%;
 }
 
@@ -119,8 +119,8 @@ hr {
 }
 
 .emoji {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
 }
 
 * {
