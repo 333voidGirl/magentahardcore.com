@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Blackletter";
+    font-family: "TexturaLiberaXBlack";
     src: url("/imgsAssets/fonts/TexturaLiberaX-Black.woff") format('woff');
 }
 
@@ -9,19 +9,26 @@
 }
 
 @font-face {
-  font-family: "Bamum";
-  src: url("/imgsAssets/fonts/bamum.woff") format('woff');
+  font-family: "Astloch";
+  src: url("https://magentahardcore.com/imgsAssets/fonts/astloch.bold.ttf") format('woff');
 }
 
 h1 {
-  font-family: 'Blackletter', cursive;
+  font-family: 'TexturaLiberaXBlack', cursive;
   color: #f20587;
   font-size: 63px;
   margin: 1%;
 }
 
 h2{
-  font-size: 16px;
+  font-size: 18px;
+  font-family: 'Astloch', sans-serif;
+  color: #0000ff;
+  margin: 1%;
+}
+
+h3{
+  font-size: 21px;
   font-family: 'IBM', sans-serif;
   color: #9000ff;
   margin: 1%;
@@ -62,11 +69,6 @@ body {
     body {
       background-image: none;
     }
-}
-
-.res {
-    width: 63%;
-    height: auto;
 }
 
 pre {
