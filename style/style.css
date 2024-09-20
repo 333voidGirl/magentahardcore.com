@@ -1,43 +1,36 @@
 @font-face {
     font-family: "TexturaLiberaXBlack";
-    src: url("/imgsAssets/fonts/TexturaLiberaX-Black.woff") format('woff');
+    src: url("/imgsAssets/fonts/TexturaLiberaX-Black.woff");
 }
 
 @font-face {
     font-family: "IBM";
-    src: url("/imgsAssets/fonts/ibm.woff") format('woff');
+    src: url("/imgsAssets/fonts/ibm.woff");
 }
 
 @font-face {
   font-family: "Astloch";
-  src: url("https://magentahardcore.com/imgsAssets/fonts/astloch.bold.ttf") format('woff');
+  src: url("/imgsAssets/fonts/astloch.bold.ttf");
 }
 
 h1 {
   font-family: 'TexturaLiberaXBlack', cursive;
-  color: #f20587;
-  font-size: 63px;
+  color: #e60073;
+  font-size: 54px;
   margin: 1%;
 }
 
 h2{
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Astloch', sans-serif;
   color: #0000ff;
   margin: 1%;
 }
 
 h3{
-  font-size: 21px;
+  font-size: 20px;
   font-family: 'IBM', sans-serif;
   color: #9000ff;
-  margin: 1%;
-}
-
-p, ul {
-  font-size: 16px;
-  font-family: 'IBM', sans-serif;
-  color: #f20587;
   margin: 1%;
 }
 
@@ -60,8 +53,8 @@ body {
   background-size: 20%;
   max-width: 77%;
   font-family: 'IBM';
-  font-size: 16px;
-  color: #f20587;
+  font-size: 18px;
+  color: #e60073;
   cursor: url("/imgsAssets/cursor1.png"), auto;
 }
 
@@ -69,14 +62,6 @@ body {
     body {
       background-image: none;
     }
-}
-
-pre {
-  font-family: 'IBM', sans-serif;
-  color: #f20587;
-  white-space: pre;
-  font-size: 16px;
-  margin: 1%;
 }
 
 hr {
@@ -87,11 +72,11 @@ hr {
 }
 
 ::selection {
-  background: #f20587; /* WebKit/Blink Browsers */
+  background: #e60073; /* WebKit/Blink Browsers */
   color: black;
 }
 ::-moz-selection {
-  background: #f20587; /* Gecko Browsers */
+  background: #e60073; /* Gecko Browsers */
   color: black;
 }
 
@@ -121,8 +106,8 @@ hr {
 }
 
 .emoji {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
 }
 
 * {
