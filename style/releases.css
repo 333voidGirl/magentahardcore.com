@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Ornamental";
+    src: url("/imgsAssets/fonts/EileenCapsBlack-w1DP.ttf");
+}
+
+@font-face {
+    font-family: "Jancient";
+    src: url("/imgsAssets/fonts/JANCIENT.ttf");
+}
+
+@font-face {
+    font-family: "IBM";
+    src: url("/imgsAssets/fonts/ibm.woff");
+}
+
+@font-face {
+  font-family: "Astloch";
+  src: url("/imgsAssets/fonts/astloch.bold.ttf");
+}
+
+h1 {
+  font-family: 'Ornamental', cursive;
+  color: #f77e00;
+  font-size: 4em;
+  -webkit-text-stroke: 0.01em black;
+  margin: 1%;
+}
+
+h2{
+  font-size: 1.2em;
+  font-family: 'Astloch', sans-serif;
+  color: black;
+  margin: 1%;
+}
+
+a {
+  color: #e60073;
+  text-decoration: none;
+}
+
+a:hover {
+  padding: 1px;
+  border: 1px solid #e60073;
+}
+
+body {
+  text-align: left;
+  -webkit-text-stroke: 0.01em black;
+  background-color: #0000ff;
+  font-family: 'Jancient';
+  text-align: right;
+  font-size: 1.8em;
+  color: #f77e00;
+  
+  cursor: url("/imgsAssets/cursor1.png"), auto;
+}
+
+pre {
+  font-family: 'IBM';
+}
+
+hr {
+  color: black;
+  border: 2px solid;
+  border-color: black;
+  margin: 1%;
+}
+
+br2 {
+    display: block;
+    margin: 14% 0;
+}
+
+::selection {
+  background: black; /* WebKit/Blink Browsers */
+  color: #0000ff;
+}
+::-moz-selection {
+  background: black; /* Gecko Browsers */
+  color: #0000ff;
+}
+
+.text {
+  align-self: flex-end;
+}
+
+.logo {
+  height: 1.6em;
+}
+
+.smollogo {
+  height: 7em;
+  float: left;
+}
+
+.cover {
+  width: 18%;
+  float: left;
+}
+
+.paragraph {
+  display: flex;
+}
+
+.tab { text-indent:40px }
+
+.footer > a:hover {
+  display: inline-block;
+}
+
+.emoji {
+  width: 1em;
+  height: 1em;
+}
+
+* {
+     cursor: url("/imgsAssets/cursor1.png"),  auto;
+}

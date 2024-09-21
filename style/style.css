@@ -15,20 +15,20 @@
 
 h1 {
   font-family: 'TexturaLiberaXBlack', cursive;
-  color: #e60073;
-  font-size: 54px;
+  color: #e50067;
+  font-size: 3em;
   margin: 1%;
 }
 
 h2{
-  font-size: 20px;
+  font-size: 1.2em;
   font-family: 'Astloch', sans-serif;
   color: #0000ff;
   margin: 1%;
 }
 
 h3{
-  font-size: 20px;
+  font-size: 1.2em;
   font-family: 'IBM', sans-serif;
   color: #9000ff;
   margin: 1%;
@@ -47,18 +47,24 @@ a:hover {
 body {
   text-align: left;
   background-color: black;
-  background-image: url("/imgsAssets/background.gif");
+  background-image: url("/imgsAssets/border.svg");
   background-position: right top;
   background-repeat: repeat-y;
+  background-attachment: fixed;
   background-size: 20%;
   max-width: 77%;
   font-family: 'IBM';
-  font-size: 18px;
-  color: #e60073;
+  font-size: 1.0em;
+  color: #e50067;
+  
   cursor: url("/imgsAssets/cursor1.png"), auto;
 }
 
-@media (max-width: 700px) {
+pre {
+  font-family: 'IBM';
+}
+
+@media (max-width: 900px) {
     body {
       background-image: none;
     }
@@ -72,11 +78,11 @@ hr {
 }
 
 ::selection {
-  background: #e60073; /* WebKit/Blink Browsers */
+  background: #e50067; /* WebKit/Blink Browsers */
   color: black;
 }
 ::-moz-selection {
-  background: #e60073; /* Gecko Browsers */
+  background: #e50067; /* Gecko Browsers */
   color: black;
 }
 
@@ -85,8 +91,7 @@ hr {
 }
 
 .logo {
-  width: 86px;
-  height: 86px;
+  height: 1.6em;
 }
 
 .paragraph {
@@ -99,15 +104,15 @@ hr {
   display: inline-block;
 }
 
-.DDR0 {
-  width: 180px;
+.smollogo {
+  width: 18em;
   display: block;
   margin-left: auto;
 }
 
 .emoji {
-  width: 18px;
-  height: 18px;
+  width: 1em;
+  height: 1em;
 }
 
 * {
