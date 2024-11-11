@@ -30,13 +30,15 @@ h2{
 h3{
   font-size: 1.2em;
   font-family: 'IBM', sans-serif;
-  color: #9000ff;
+  color: #d15cff;
   margin: 1%;
 }
 
 a {
   color: #f77e00;
   text-decoration: none;
+  padding: 1px;
+  border: 1px solid transparent;
 }
 
 a:hover {
@@ -46,17 +48,16 @@ a:hover {
 
 body {
   text-align: left;
-  background-color: black;
-  background-image: url("/imgsAssets/border.svg");
-  background-position: right top;
-  background-repeat: repeat-y;
+  background-color: #000000;
+  background-image: url("/imgsAssets/border.svg"), url("/imgsAssets/stars.gif");
+  background-repeat: repeat-y, repeat;
   background-attachment: fixed;
-  background-size: 20%;
+  background-position: right top, bottom;
+  background-size: 20%, 200px;
   max-width: 77%;
   font-family: 'IBM';
   font-size: 1.0em;
   color: #e50067;
-  
   cursor: url("/imgsAssets/cursor1.png"), auto;
 }
 

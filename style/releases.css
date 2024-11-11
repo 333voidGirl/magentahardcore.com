@@ -36,6 +36,8 @@ h2{
 a {
   color: #e60073;
   text-decoration: none;
+  padding: 1px;
+  border: 1px solid transparent;
 }
 
 a:hover {
@@ -49,7 +51,7 @@ body {
   background-color: #0000ff;
   font-family: 'Jancient';
   text-align: right;
-  font-size: 1.8em;
+  font-size: 2.0em;
   color: #f77e00;
 }
 
