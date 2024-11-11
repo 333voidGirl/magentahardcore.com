@@ -67,7 +67,11 @@ pre {
 
 @media (max-width: 900px) {
     body {
-      background-image: none;
+      background-image: url("/imgsAssets/stars.gif");
+      background-repeat: repeat;
+      background-attachment: fixed;
+      background-position: bottom;
+      background-size: 200px;
     }
 }
 
