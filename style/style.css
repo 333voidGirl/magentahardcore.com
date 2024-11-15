@@ -56,7 +56,7 @@ body {
   background-size: 20%, 200px;
   max-width: 77%;
   font-family: 'IBM';
-  font-size: 1.0em;
+  font-size: 1em;
   color: #e50067;
   cursor: url("/imgsAssets/cursor1.png"), auto;
 }
