@@ -2,50 +2,42 @@
     font-family: "TexturaLiberaXBlack";
     src: url("/imgsAssets/fonts/TexturaLiberaX-Black.woff");
 }
-
 @font-face {
     font-family: "IBM";
     src: url("/imgsAssets/fonts/ibm.woff");
 }
-
 @font-face {
   font-family: "Astloch";
   src: url("/imgsAssets/fonts/astloch.bold.ttf");
 }
-
 h1 {
   font-family: 'TexturaLiberaXBlack', cursive;
   color: #e50067;
   font-size: 3em;
   margin: 1%;
 }
-
 h2{
   font-size: 1.2em;
   font-family: 'Astloch', sans-serif;
   color: #0000ff;
   margin: 1%;
 }
-
 h3{
   font-size: 1.2em;
   font-family: 'IBM', sans-serif;
   color: #d15cff;
   margin: 1%;
 }
-
 a {
   color: #f77e00;
   text-decoration: none;
   padding: 1px;
   border: 1px solid transparent;
 }
-
 a:hover {
   padding: 1px;
   border: 1px solid #f77e00;
 }
-
 body {
   text-align: left;
   background-color: #000000;
@@ -60,11 +52,9 @@ body {
   color: #e50067;
   cursor: url("/imgsAssets/cursor1.png"), auto;
 }
-
 pre {
   font-family: 'IBM';
 }
-
 @media (max-width: 900px) {
     body {
       background-image: url("/imgsAssets/stars.gif");
@@ -74,14 +64,12 @@ pre {
       background-size: 200px;
     }
 }
-
 hr {
   color: #9000ff;
   border: 1px solid;
   border-color: #9000ff;
   margin: 1%;
 }
-
 ::selection {
   background: #e50067; /* WebKit/Blink Browsers */
   color: black;
@@ -90,36 +78,34 @@ hr {
   background: #e50067; /* Gecko Browsers */
   color: black;
 }
-
 .text {
   align-self: flex-end;
 }
-
 .logo {
   height: 1.6em;
 }
-
+.logo2 {
+  height: 3em;
+  margin-left: auto;
+}
 .paragraph {
   display: flex;
 }
-
-.tab { text-indent:40px }
-
+.tab { 
+  text-indent:40px 
+}
 .footer > a:hover {
   display: inline-block;
 }
-
 .smollogo {
   width: 18em;
   display: block;
   margin-left: auto;
 }
-
 .emoji {
   width: 1em;
   height: 1em;
 }
-
 * {
      cursor: url("/imgsAssets/cursor1.png"),  auto;
 }

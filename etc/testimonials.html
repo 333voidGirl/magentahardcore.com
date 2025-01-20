@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <link rel="icon" type="image/x-icon" href="/imgsAssets/favicon.ico">
+<link href="/style/style.css" rel="stylesheet" type="text/css" media="all">
+</head><body>
+<style>
+h1 {
+  color: #0000ff;
+}
+h2{
+  color: #e50067;
+}
+a {
+  color: #00ff00;
+}
+a:hover {
+  border: 1px solid #00ff00;
+}
+hr.upper {
+  border-color: #0000ff;
+}
+hr.lower {
+  border-color: #9000ff;
+}
+p.a {
+  color: #ffff00;
+}
+p.b {
+    color: #f77e00;
+}
+p.c {
+    color: #d15cff;
+}
+body {
+  background-image: url("/imgsAssets/var/n1lsoypoint.png"), url("/imgsAssets/stars.gif");
+  background-repeat: no-repeat, repeat;
+  background-position: right bottom;
+  background-size: 540px, 200px;
+  max-width: 72%;
+}
+@media (max-width: 1700px) {
+  body {
+    background-image: url("/imgsAssets/stars.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 200px;
+    }
+}
+</style>
+<script>
+  const createColorChanger = (className, colors) => {
+      let colorIndex = 0;
+      // Add an event that runs at a set interval
+      setInterval(() => {
+          // Choose a random color from the colors list and store it as `color`
+          let color = colors[colorIndex];
+          colorIndex = (colorIndex + 1) % colors.length;
+          // Loop through all the elements that have "some-class" class
+          for (let element of document.getElementsByClassName(className)) {
+              // For each element, set it's color css property to our `color` variable from before
+              element.style.color = `#${color}`;
+          }
+          // The time between intervals in milliseconds
+      }, 1200);
+  }
+  // Add a color changer for each class starting at different positions in the colors 
+  // array (remember arrays start at 0)
+  createColorChanger("a", ["ffff00", "f77e00"]);
+  createColorChanger("b", ["f77e00", "ffff00"]);
+  createColorChanger("c", ["9000ff", "e50067"]);
+  createColorChanger("tit", ["0000ff", "9000ff"]);
+  createColorChanger("tit2", ["e50067", "0000ff"]);
+  createColorChanger("lnk", ["00ff00", "ffffff"]);
+</script>
+<div class="header">
+<h1 class="tit">
+    <img src="/imgsAssets/var/dancingbearmh.gif" class="logo">Testimonials (or: Hubris Collection 999)
+</h1>
+<h2 class="tit2">The originator of sneep, Lauren Bousfield copyist supreme, schizophrenic transsexual, and apparent artist's greatest achievements.</h2>
+<p class="c"><img src="https://magentahardcore.com/imgsAssets/var/achtung.svg" alt="achtung" class="emoji">Page contains javascript. Disable if you don't want it. Rest of the site doesn't. Enjoy these glowing reviews :3</p>
+</div>
+<hr class="upper">
+<p class="a">
+"333voidgirl voided my dick and balls from existence?!?!?! Not sure where tf they went but i lowk like this being a girl shit it aint half bad now im listening to breakcore while stimming Thank you 333voidgirl for the free bottom surgery i hear ppl pay good money for this stuff"
+</p>
+<p class="b">
+"GROATed with the sauce"
+</p>
+<p class="a">
+"Her art style inspired 'Hardcore Squidward' for my collection of Emo Squidwards."
+</p>
+<p class="b">
+"aren't you nyx land" - nyx land
+</p>
+<p class="a">
+"female orgasm analogs in sonic form"
+</p>
+<p class="b">
+"i think yr website has looked different almost every time ive seen it while retaining and intensifying the same energy"
+</p>
+<p class="a">
+"is this also your website?"
+<br>
+>links <a href="https://lilith0x00.neocities.org/" class="lnk">0x00cunk</a>'s website
+</p>
+<p class="b">
+"wait this isn't nyx land's server?"
+</p>
+<p class="a">
+"I fw U Alot"
+</p>
+<p class="b">
+"Self replicating bnuuy"
+</p>
+<p class="a">
+"You’re like if Tumblr fell into a vat of acid"
+</p>
+<hr class="lower">
+<p><a href="/" class="lnk">Back</a></p>
+</html>
