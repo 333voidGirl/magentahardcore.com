@@ -29,12 +29,12 @@ h1 {
 h2{
   font-size: 1.2em;
   font-family: 'Astloch', sans-serif;
-  color: black;
+  color: #00ffff;
   margin: 1%;
 }
 
 a {
-  color: #e60073;
+  color: #ffff00;
   text-decoration: none;
   padding: 1px;
   border: 1px solid transparent;
@@ -42,15 +42,15 @@ a {
 
 a:hover {
   padding: 1px;
-  border: 1px solid #e60073;
+  border: 1px solid #ffff00;
 }
 
 body {
   text-align: left;
-  -webkit-text-stroke: 0.01em black;
-  background-color: #0000ff;
+  background-color: black;
+  background-image: url("/imgsAssets/releases/skullstonedownwards.gif");
   font-family: 'Jancient';
-  text-align: right;
+  text-align: center;
   font-size: 2.0em;
   color: #f77e00;
 }
@@ -60,9 +60,9 @@ pre {
 }
 
 hr {
-  color: black;
+  color: #00ffff;
   border: 2px solid;
-  border-color: black;
+  border-color: #00ffff;
   margin: 1%;
 }
 
@@ -72,11 +72,11 @@ br2 {
 }
 
 ::selection {
-  background: black; /* WebKit/Blink Browsers */
+  background: #00ffff; /* WebKit/Blink Browsers */
   color: #0000ff;
 }
 ::-moz-selection {
-  background: black; /* Gecko Browsers */
+  background: #00ffff; /* Gecko Browsers */
   color: #0000ff;
 }
 
@@ -89,17 +89,11 @@ br2 {
 }
 
 .smollogo {
-  height: 7em;
-  float: left;
+  width: 27%;
 }
 
 .cover {
   width: 18%;
-  float: left;
-}
-
-.paragraph {
-  display: flex;
 }
 
 .tab { text-indent:40px }
@@ -114,5 +108,8 @@ br2 {
 }
 
 * {
-     cursor: url("/imgsAssets/cursor1.png"),  auto;
+     cursor: url("/imgsAssets/releases/cursor.png"),  auto;
+}
+a, a:link, button {
+  cursor:url("/imgsAssets/releases/cursor_hover.png"), auto;
 }

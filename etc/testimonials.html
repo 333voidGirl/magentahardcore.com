@@ -6,11 +6,25 @@
 <link href="/style/style.css" rel="stylesheet" type="text/css" media="all">
 </head><body>
 <style>
+::selection {
+  background: #00ffff; /* WebKit/Blink Browsers */
+  color: black;
+}
+::-moz-selection {
+  background: #00ffff; /* Gecko Browsers */
+  color: black;
+}
+* {
+     cursor: url("/imgsAssets/hubris/cursorhubris.gif"),  auto;
+}
+a, a:link, button {
+  cursor:url("/imgsAssets/hubris/cursorhubris_hover.gif"), auto;
+}
 h1 {
   color: #0000ff;
 }
 h2{
-  color: #e50067;
+  color: #00ffff;
 }
 a {
   color: #00ff00;
@@ -22,31 +36,28 @@ hr.upper {
   border-color: #0000ff;
 }
 hr.lower {
-  border-color: #9000ff;
+  border-color: #0000ff;
 }
 p.a {
   color: #ffff00;
 }
 p.b {
-    color: #f77e00;
-}
-p.c {
-    color: #d15cff;
+    color: #00ffff;
 }
 body {
-  background-image: url("/imgsAssets/var/n1lsoypoint.png"), url("/imgsAssets/stars.gif");
-  background-repeat: no-repeat, repeat;
-  background-position: right bottom;
-  background-size: 540px, 200px;
+  background-image: url("/imgsAssets/var/n1lsoypoint.png"), url("/imgsAssets/hubris/bghubris.gif"), url("/imgsAssets/hubris/bgbghubris_drk.gif");
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: right bottom, top, top;
+  background-size: 360px, 1920px, 250px;
   max-width: 72%;
 }
 @media (max-width: 1700px) {
   body {
-    background-image: url("/imgsAssets/stars.gif");
+    background-image: url("/imgsAssets/var/blink.gif");
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: bottom;
-    background-size: 200px;
+    background-size: 100px;
     }
 }
 </style>
@@ -64,15 +75,14 @@ body {
               element.style.color = `#${color}`;
           }
           // The time between intervals in milliseconds
-      }, 1200);
+      }, 600);
   }
   // Add a color changer for each class starting at different positions in the colors 
   // array (remember arrays start at 0)
-  createColorChanger("a", ["ffff00", "f77e00"]);
-  createColorChanger("b", ["f77e00", "ffff00"]);
-  createColorChanger("c", ["9000ff", "e50067"]);
-  createColorChanger("tit", ["0000ff", "9000ff"]);
-  createColorChanger("tit2", ["e50067", "0000ff"]);
+  createColorChanger("a", ["ffff00", "00ffff"]);
+  createColorChanger("b", ["00ffff", "ffff00"]);
+  createColorChanger("tit", ["0000ff", "00ffff"]);
+  createColorChanger("tit2", ["00ffff", "ffff00"]);
   createColorChanger("lnk", ["00ff00", "ffffff"]);
 </script>
 <div class="header">
@@ -80,9 +90,9 @@ body {
     <img src="/imgsAssets/var/dancingbearmh.gif" class="logo">Testimonials (or: Hubris Collection 999)
 </h1>
 <h2 class="tit2">The originator of sneep, Lauren Bousfield copyist supreme, schizophrenic transsexual, and apparent artist's greatest achievements.</h2>
-<p class="c"><img src="https://magentahardcore.com/imgsAssets/var/achtung.svg" alt="achtung" class="emoji">Page contains javascript. Disable if you don't want it. Rest of the site doesn't. Enjoy these glowing reviews :3</p>
 </div>
 <hr class="upper">
+<p>
 <p class="a">
 "333voidgirl voided my dick and balls from existence?!?!?! Not sure where tf they went but i lowk like this being a girl shit it aint half bad now im listening to breakcore while stimming Thank you 333voidgirl for the free bottom surgery i hear ppl pay good money for this stuff"
 </p>
@@ -117,6 +127,13 @@ body {
 </p>
 <p class="a">
 "You’re like if Tumblr fell into a vat of acid"
+</p>
+<p class="b">
+"333voidGirl sounds like being trapped inside a flanger pedal board"
+</p>
+<p class="a">
+  "Did the actual 333voidgirl just appear !? I was just making a throwaway smartass comment but this made me go check out your tunes and it's good shit! Currently listening to it with some coffee"
+</p>
 </p>
 <hr class="lower">
 <p><a href="/" class="lnk">Back</a></p>

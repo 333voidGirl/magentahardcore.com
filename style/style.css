@@ -39,29 +39,33 @@ a:hover {
   border: 1px solid #f77e00;
 }
 body {
-  text-align: left;
+  text-align: center;
   background-color: #000000;
-  background-image: url("/imgsAssets/border.svg"), url("/imgsAssets/stars.gif");
-  background-repeat: repeat-y, repeat;
+  background-image: url("/imgsAssets/dprk.svg"), url("/imgsAssets/starsdown.gif");
+  background-repeat: no-repeat, repeat;
   background-attachment: fixed;
-  background-position: right top, bottom;
-  background-size: 20%, 200px;
-  max-width: 77%;
+  background-position: top, bottom;
+  background-size: 1920px, 100px;
+  width: 63%;
+  margin: auto;
   font-family: 'IBM';
   font-size: 1em;
   color: #e50067;
   cursor: url("/imgsAssets/cursor1.png"), auto;
+}
+p2 {
+  color: #ffffff;
 }
 pre {
   font-family: 'IBM';
 }
 @media (max-width: 900px) {
     body {
-      background-image: url("/imgsAssets/stars.gif");
+      background-image: url("/imgsAssets/starsdown.gif");
       background-repeat: repeat;
       background-attachment: fixed;
       background-position: bottom;
-      background-size: 200px;
+      background-size: 100px;
     }
 }
 hr {
@@ -83,13 +87,12 @@ hr {
 }
 .logo {
   height: 1.6em;
-}
-.logo2 {
-  height: 3em;
+  display: block;
+  width: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 .paragraph {
-  display: flex;
 }
 .tab { 
   text-indent:40px 
@@ -106,6 +109,11 @@ hr {
   width: 1em;
   height: 1em;
 }
+.data a, .data span, .data tr, .data td { white-space: pre; }
+
 * {
-     cursor: url("/imgsAssets/cursor1.png"),  auto;
+     cursor: url("/imgsAssets/cursor.gif"),  auto;
+}
+a, a:link, button {
+  cursor:url("/imgsAssets/cursor_hover.gif"), auto;
 }
